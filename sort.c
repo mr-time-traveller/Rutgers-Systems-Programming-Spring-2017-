@@ -118,7 +118,6 @@ int main(int argc, char ** argv)
         return 1; 
     } 
 	
-	else{
 		char *head;
 		Node *output = NULL;
 		const char *temp = argv[1];
@@ -130,7 +129,7 @@ int main(int argc, char ** argv)
 		free(output);
 		return 0;
 	}
-}
+	
 
 
 
